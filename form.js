@@ -34,6 +34,7 @@ window.signup = function(e){
   createUserWithEmailAndPassword(auth,obj.email,obj.password)
   .then(function(success){
     alert("Sign-up Successfuly")
+     wrapper.classList.add("active");
   })
   .catch(function(err){
     alert("ERROR" + err)
