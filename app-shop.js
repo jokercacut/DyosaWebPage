@@ -95,7 +95,7 @@ function buyButton() {var cartItems = document.getElementsByClassName('cart-cont
 
   // Proceed with order placement
   alert('Proceed to Check-Out?');
-  window.location.href="form.html";
+  window.location.href="check-out.html";
   // Clear the cart after placing the order
   while (cartItems.hasChildNodes()) {
     cartItems.removeChild(cartItems.firstChild);
