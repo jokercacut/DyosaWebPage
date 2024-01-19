@@ -87,10 +87,17 @@
     
         </div>
 
-                <input class="submit-btn" type="submit" value="proceed to checkout" onclick="alert("Your order has been placed")">
+                <input class="submit-btn" type="submit" value="proceed to checkout" onclick="redirectToAnotherPage()">
     </form>
 
 </div>    
     
 </body>
+    <script>
+    // JavaScript function to redirect to another page
+    function redirectToAnotherPage() {
+        alert("Your order has been placed!")
+        window.location.href = 'app-shop.html';
+    }
+    </script>
 </html>
