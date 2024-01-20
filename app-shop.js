@@ -107,7 +107,7 @@ function buyButton() {var cartItems = document.getElementsByClassName('cart-cont
 }
 
 function removeCartItem(event){
-   if(confirm('Are You Sure You Want to Remove The Item')){
+   if(confirm('Are Your Sure You Want to Remove The Item')){
   var buttonClicked = event.target
   buttonClicked.parentElement.parentElement.remove()
   updateCart()
